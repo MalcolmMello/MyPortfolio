@@ -1,11 +1,11 @@
 import * as C from './styles'
 import meuportifolioimg from '../../assets/meuportifolioimg.png'
 import pdf from '../../files/MyResume.pdf'
-import { Link } from 'react-router-dom'
+import { useRef } from 'react'
 
 export const MyData = () => {
     return (
-        <C.MyName>
+        <C.MyName >
             <div className='container'>
                 <div className='data--area'>
                     <p className='frontend--title'>DESENVOLVEDOR FRONT-END</p>

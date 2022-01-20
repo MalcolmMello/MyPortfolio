@@ -2,6 +2,7 @@ import * as C from './styles'
 import mypic from '../../assets/mypic.png'
 
 export const About = () => {
+
     return (
         <C.AboutItem>
             <div className='container'>

@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const MyName = styled.section`
     display: flex;
-    height: calc(100vh - 90px);
     align-items: center;
+    padding: 80px 0px;
 
     .container {
         display: flex;
@@ -12,8 +12,8 @@ export const MyName = styled.section`
         justify-content: space-between;
         .img--area {
             img {
-                width: 400px;
-                height: 400px;
+                width: 300px;
+                height: 300px;
             }
     }
 

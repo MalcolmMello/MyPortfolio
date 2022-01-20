@@ -7,9 +7,10 @@ export const Header = () => {
                 <h1>Malcolm Lima</h1>
                 <ul>
                     <li>Sobre mim</li>
+                    <li>Skills</li>
                     <li>Projetos</li>
                     <li>Serviços</li>
-                    <li>Minhas Skills</li>
+                    <li>Contato</li>
                 </ul>
             </div>
         </C.HeaderArea>

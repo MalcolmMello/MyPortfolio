@@ -17,18 +17,20 @@ export const ServicesArea = styled.section`
 
             .services--item {
                     display: flex;
+                    flex-direction: column; 
                     height: 240px;
                     width: 350px;
                     margin: auto;
-                    align-items: flex-end;
+                    justify-content: space-between;
                     background-color: #2b3443;
                     color: #FFF;
                     border-bottom: 3px solid #5CC4C4;
-                    padding: 0px 10px;
+                    padding: 10px 10px;
+                    transition: all ease 0.3s;
                     
                     img {
-                        height: 150px;
-                        width: 100%
+                        height: 64px;
+                        width: 64px;
                     }
                 }
             }
