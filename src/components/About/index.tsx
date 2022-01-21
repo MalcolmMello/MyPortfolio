@@ -11,9 +11,15 @@ export const About = () => {
                         <img className='perfil--img' src={mypic} alt="" />
                         <h2>Malcolm Lima</h2>
                         <div className='social--media'>
-                            <img src="https://img.icons8.com/ios-glyphs/30/5CC4C4/linkedin.png"/>
-                            <img src="https://img.icons8.com/ios-glyphs/30/5CC4C4/github.png"/>
-                            <img src="https://img.icons8.com/ios-glyphs/30/5CC4C4/youtube-play.png"/>
+                            <a href='https://www.linkedin.com/in/malcolm-de-mello-a8208a224/' target="_blank">
+                                <img src="https://img.icons8.com/ios-glyphs/30/5CC4C4/linkedin.png"/>
+                            </a>
+                            <a href='https://github.com/MalcolmMello' target="_blank">
+                                <img src="https://img.icons8.com/ios-glyphs/30/5CC4C4/github.png"/>
+                            </a>
+                            <a href="https://www.youtube.com/channel/UC4WpfhVSFKAyLlBvFGWOnQg" target="_blank">
+                                <img src="https://img.icons8.com/ios-glyphs/30/5CC4C4/youtube-play.png"/>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -27,7 +33,7 @@ export const About = () => {
                             Desenvolvi aplicações onde utilizei consumo de API, Design responsivo, HTML semântico, Rotas
                             (diversas páginas), e funcionalidades como Axios, Styled-Components, React-Router, ContextAPI, Hooks,
                             LocalStorage, States e Eventos.
-                            Você pode ver mais sobre meus projetos na área Projetos abaixo, e nas minhas redes ao lado (
+                            Você pode ver mais sobre meus projetos na área Projetos abaixo, e nas minhas redes (
                                 LinkedIn, GitHub e YouTube
                             ).
                         </p>
