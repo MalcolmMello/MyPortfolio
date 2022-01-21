@@ -52,7 +52,7 @@ export const ContactArea = styled.section`
     }
 
     @media(max-width: 480px) {
-        padding: 30px 0px;
+        padding: 15px 0px;
         .container {
             font-size: 12px;
         }

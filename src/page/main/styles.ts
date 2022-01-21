@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const MainContent = styled.div<{isOpen: boolean}>`
+    
     .container-header {
         display: flex;
         width: 1024px;
@@ -25,13 +26,16 @@ export const MainContent = styled.div<{isOpen: boolean}>`
                 border-bottom: 1px solid #5CC4C4
             }
         }
-
+    }
+    header {
+        display: flex;
+        align-items: center;
         .open--menu {
             display: none;
             cursor: pointer;
             font-size: 30px;
         }
-
+    
         .line1, .line2, .line3{
             width: 32px;
             height: 2px;
@@ -40,6 +44,7 @@ export const MainContent = styled.div<{isOpen: boolean}>`
             margin: 8px;
         }
     }
+    
 
     @media(max-width: 1024px) {
         .container-header {
@@ -78,7 +83,8 @@ export const MainContent = styled.div<{isOpen: boolean}>`
                     margin: 0px;
                 }
             }
-
+        }
+        header {
             .open--menu {
                 display: block;
             }

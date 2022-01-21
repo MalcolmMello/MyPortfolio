@@ -87,7 +87,7 @@ export const ProjectsArea = styled.section`
     }
 
     @media(max-width: 480px) {
-        padding: 30px 0px;
+        padding: 15px 0px;
         .container {
             .projects--area {
                 grid-template-columns: 1fr;

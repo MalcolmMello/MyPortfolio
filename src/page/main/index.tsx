@@ -9,7 +9,7 @@ import { Footer } from '../../components/Footer'
 import { useRef, useState } from 'react'
 
 export const Main = () => {
-    const [isOpen, setIsOpen] = useState(true)
+    const [isOpen, setIsOpen] = useState(false)
     
     const aboutSection = useRef<HTMLDivElement | null>(null)
     const skillsSection= useRef<HTMLDivElement | null>(null)
@@ -62,11 +62,6 @@ export const Main = () => {
 			<header>
                 <div className='container-header'>
                     <h1>Malcolm Lima</h1>
-                    <div className='open--menu' onClick={handleOpenMenu}>
-                        <div className='line1'></div>
-                        <div className='line2'></div>
-                        <div className='line3'></div>
-                    </div>
                     <nav>
                         <ul className='nav--list'>
                             <li onClick={goToAbout}>Sobre mim</li>
@@ -77,6 +72,11 @@ export const Main = () => {
                         </ul>
                     </nav>
                 </div>
+                <div className='open--menu' onClick={handleOpenMenu}>
+                        <div className='line1'></div>
+                        <div className='line2'></div>
+                        <div className='line3'></div>
+                    </div>
             </header>
 			<main>
                 <div>
