@@ -56,7 +56,10 @@ export const AboutItem = styled.section`
                 margin-bottom: 50px;
             }
             .about--item {
-                color: #fff
+                color: #fff;
+                p {
+                    line-height: 25px
+                }
             }
         }
     }

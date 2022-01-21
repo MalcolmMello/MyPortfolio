@@ -60,6 +60,7 @@ export const ServicesArea = styled.section`
     }
 
     @media(max-width: 480px) {
+        padding: 30px 0px;
         .container {
             .services--area {
                 grid-template-columns: 1fr;
