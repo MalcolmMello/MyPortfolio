@@ -37,4 +37,23 @@ export const ContactArea = styled.section`
             }
         }
     }
+
+    @media(max-width: 1024px) {
+        .container {
+            width: 100%;
+            padding: 0px 10px;
+        }
+    }
+
+    @media(max-width: 768px) {
+        .container {
+            font-size: 14px
+        }
+    }
+
+    @media(max-width: 480px) {
+        .container {
+            font-size: 12px
+        }
+    }
 `

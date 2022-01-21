@@ -18,11 +18,8 @@ export const MyName = styled.section`
     }
 
     .data--area {
-        h1 {
+        h1, p{
             color: #FFF;
-        }
-        p {
-            color: #FFF
         }
         .frontend--title {
             color: #5CC4C4;
@@ -42,6 +39,31 @@ export const MyName = styled.section`
             cursor: pointer;
             margin-right: 15px;
             text-decoration: none
+        }
+    }
+
+    @media(max-width: 1024px) {
+        &.container {
+            width: 100%;
+            padding: 0px 10px;
+        }
+    }
+
+    @media(max-width: 645px) {
+        &.container {
+            .img--area {
+                display: none
+            }
+
+            .data--area {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: auto;
+                p {
+                    text-align: center
+                }
+            }
         }
     }
 `

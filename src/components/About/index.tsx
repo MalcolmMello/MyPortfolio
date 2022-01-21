@@ -18,7 +18,7 @@ export const About = () => {
                     </div>
                 </div>
                 <div className='about--area'>
-                    <h1><img src="https://img.icons8.com/windows/32/5CC4C4/about-us-male--v1.png"/>Sobre</h1>
+                    <h1>Sobre</h1>
                     <div className='about--item'>
                         <h3>Conheça um pouco sobre mim</h3>
                         <p>

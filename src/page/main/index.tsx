@@ -10,44 +10,44 @@ import { Footer } from '../../components/Footer'
 import { useRef } from 'react'
 
 export const Main = () => {
-    const aboutSection: any = useRef(null)
-    const skillsSection: any = useRef(null)
-    const projectsSection: any = useRef(null)
-    const servicesSection: any = useRef(null)
-    const contactSection: any = useRef(null)
+    const aboutSection = useRef<HTMLDivElement | null>(null)
+    const skillsSection= useRef<HTMLDivElement | null>(null)
+    const projectsSection = useRef<HTMLDivElement | null>(null)
+    const servicesSection = useRef<HTMLDivElement | null>(null)
+    const contactSection = useRef<HTMLDivElement | null>(null)
 
     
     const goToAbout = () => {
         window.scrollTo({
-            top: aboutSection.current.offsetTop,
+            top: aboutSection.current?.offsetTop,
             behavior: 'smooth'
         })
     }
 
     const goToSkills = () => {
         window.scrollTo({
-            top: skillsSection.current.offsetTop,
+            top: skillsSection.current?.offsetTop,
             behavior: 'smooth'
         })
     }
 
     const goToProjects = () => {
         window.scrollTo({
-            top: projectsSection.current.offsetTop,
+            top: projectsSection.current?.offsetTop,
             behavior: 'smooth'
         })
     }
 
     const goToServices = () => {
         window.scrollTo({
-            top: servicesSection.current.offsetTop,
+            top: servicesSection.current?.offsetTop,
             behavior: 'smooth'
         })
     }
 
     const goToContacts = () => {
         window.scrollTo({
-            top: contactSection.current.offsetTop,
+            top: contactSection.current?.offsetTop,
             behavior: 'smooth'
         })
     }
@@ -67,7 +67,7 @@ export const Main = () => {
                 </div>
             </header>
 			<main>
-                <div >
+                <div>
                     <MyData />
                 </div>
                 <div ref={aboutSection}>

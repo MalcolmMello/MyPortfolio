@@ -26,4 +26,27 @@ export const MainContent = styled.div`
             }
         }
     }
+
+    @media(max-width: 1024px) {
+        .container-header {
+            width: 100%;
+            padding: 0px 10px
+        }
+    }
+
+    @media(max-width: 768px) {
+        .container-header {
+            h1 {
+                font-size: 24px;
+            }
+        }
+    }
+
+    @media(max-width: 645px) {
+        .container-header {
+            ul {
+                display: none
+            }
+        }
+    }
 `

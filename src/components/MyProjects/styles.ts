@@ -46,4 +46,51 @@ export const ProjectsArea = styled.section`
             }
         }
     }
+
+    @media(max-width: 1024px) {
+        .container {
+            width: 100%;
+            padding: 0px 10px;
+        }
+    }
+
+    @media(max-width: 768px) {
+        .container {
+            .projects--area {
+                .project--item {
+                    p {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+
+    @media(max-width: 729px) {
+        .container {
+            .projects--area {
+                .project--item {
+                    p {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+
+    @media(max-width: 645px) {
+        .container {
+            .projects--area {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    }
+
+    @media(max-width: 480px) {
+        .container {
+            .projects--area {
+                grid-template-columns: 1fr;
+            }
+        }
+    }
 `

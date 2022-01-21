@@ -17,8 +17,7 @@ export const MyData = () => {
                     Meu currículo:
                     </p>
                     <div className='button--area'>
-                    <a href={pdf} target="_blank" download>BAIXAR CURRÍCULO</a>
-
+                        <a href={pdf} target="_blank" download>BAIXAR CURRÍCULO</a>
                     </div>
                 </div>
                 <div className='img--area'>

@@ -36,4 +36,34 @@ export const ServicesArea = styled.section`
             }
         }
     }
+
+    @media(max-width: 1024px) {
+        .container {
+            width: 100%;
+            padding: 0px 10px;
+            .services--area {
+                .services--item {
+                    width: 100%
+                }
+            }
+        }
+    }
+
+    @media(max-width: 768px) {
+        .services--area {
+            .services--item {
+                h3 {
+                    font-size: 16px
+                }
+            }
+        }
+    }
+
+    @media(max-width: 480px) {
+        .container {
+            .services--area {
+                grid-template-columns: 1fr;
+            }
+        }
+    }
 `

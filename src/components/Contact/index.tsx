@@ -18,11 +18,11 @@ export const Contact = () => {
                     </div>
                     <div className='contact--item'>
                         <img src="https://img.icons8.com/material-outlined/24/5CC4C4/github.png"/>
-                        <a href='https://github.com/MalcolmMello' target="_blank">https://github.com/MalcolmMello</a>
+                        <a href='https://github.com/MalcolmMello' target="_blank">MalcolmMello</a>
                     </div>
                     <div className='contact--item'>
                         <img src="https://img.icons8.com/ios-glyphs/24/5CC4C4/linkedin.png"/>
-                        <a href='https://www.linkedin.com/in/malcolm-de-mello-a8208a224/' target="_blank">https://www.linkedin.com/in/malcolm-de-mello-a8208a224/</a>
+                        <a href='https://www.linkedin.com/in/malcolm-de-mello-a8208a224/' target="_blank">MalcolmMello</a>
                     </div>
                 </div>
             </div>

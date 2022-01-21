@@ -52,13 +52,6 @@ export const AboutItem = styled.section`
             h1, h3 {
                 color: #FFF;
             }
-            h1 {
-                display: flex;
-
-                img {
-                    margin-right: 5px
-                }
-            }
             h3 {
                 margin-bottom: 50px;
             }
@@ -68,4 +61,27 @@ export const AboutItem = styled.section`
         }
     }
     padding: 80px 0px;
+
+    @media(max-width: 1024px) {
+        .container {
+            width: 100%;
+            .about--area {
+                padding: 0px 20px;
+            }
+        }
+    }
+
+    @media(max-width: 768px) {
+        .container {
+            grid-template-columns: 1fr;
+            .pic--item {
+                margin: auto
+            }
+            .about--area {
+                h1, h3, p {
+                    text-align: center
+                }
+            }
+        }
+    }
 `
