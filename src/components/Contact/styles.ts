@@ -56,4 +56,10 @@ export const ContactArea = styled.section`
             font-size: 12px
         }
     }
+
+    @media(max-width: 360px) {
+        .container {
+            font-size: 10px
+        }
+    }
 `

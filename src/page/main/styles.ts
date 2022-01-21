@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const MainContent = styled.div`
+export const MainContent = styled.div<{isOpen: boolean}>`
     .container-header {
         display: flex;
         width: 1024px;
@@ -25,6 +25,20 @@ export const MainContent = styled.div`
                 border-bottom: 1px solid #5CC4C4
             }
         }
+
+        .open--menu {
+            display: none;
+            cursor: pointer;
+            font-size: 30px;
+        }
+
+        .line1, .line2, .line3{
+            width: 32px;
+            height: 2px;
+            background-color: #FFF;
+            transition: all ease 0.2s;
+            margin: 8px;
+        }
     }
 
     @media(max-width: 1024px) {
@@ -43,9 +57,42 @@ export const MainContent = styled.div`
     }
 
     @media(max-width: 645px) {
+        
         .container-header {
-            ul {
-                display: none
+            .nav--list {
+                position: absolute;
+                width: ${props => props.isOpen ? '100vw' : '0px'};
+                right: 0px;
+                top: 90px;
+                height: calc(100vh - 90px);
+                background-color: #2b3443;
+                margin: auto;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-around;
+                transition: all ease 0.3s;
+                padding: 0px;
+
+                li {
+                    display: ${props => props.isOpen ? 'block' : 'none'};
+                    margin: 0px;
+                }
+            }
+
+            .open--menu {
+                display: block;
+            }
+        
+            .line1 {
+                transform: ${props => props.isOpen ? 'rotate(-45deg) translate(-8px, 8px)' : ''}
+            }
+        
+            .line2 {
+                opacity: ${props => props.isOpen ? '0' : ''}
+            }
+        
+            .line3 {
+                transform: ${props => props.isOpen ? 'rotate(45deg) translate(-5px, -7px)' : ''}
             }
         }
     }

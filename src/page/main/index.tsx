@@ -1,5 +1,4 @@
 import * as C from './styles'
-import { Header } from '../../components/Header'
 import { MyData } from '../../components/MyData'
 import { About } from '../../components/About'
 import { Skills } from '../../components/Skills'
@@ -7,9 +6,11 @@ import { Projects } from '../../components/MyProjects'
 import { Services } from '../../components/MyServices'
 import { Contact } from '../../components/Contact'
 import { Footer } from '../../components/Footer'
-import { useRef } from 'react'
+import { useRef, useState } from 'react'
 
 export const Main = () => {
+    const [isOpen, setIsOpen] = useState(true)
+    
     const aboutSection = useRef<HTMLDivElement | null>(null)
     const skillsSection= useRef<HTMLDivElement | null>(null)
     const projectsSection = useRef<HTMLDivElement | null>(null)
@@ -51,19 +52,30 @@ export const Main = () => {
             behavior: 'smooth'
         })
     }
+
+    const handleOpenMenu = () => {
+        setIsOpen(!isOpen)
+    }
     
     return (
-        <C.MainContent>
+        <C.MainContent isOpen={isOpen}>
 			<header>
                 <div className='container-header'>
                     <h1>Malcolm Lima</h1>
-                    <ul>
-                        <li onClick={goToAbout}>Sobre mim</li>
-                        <li onClick={goToSkills}>Skills</li>
-                        <li onClick={goToProjects}>Projetos</li>
-                        <li onClick={goToServices}>Serviços</li>
-                        <li onClick={goToContacts}>Contato</li>
-                    </ul>
+                    <div className='open--menu' onClick={handleOpenMenu}>
+                        <div className='line1'></div>
+                        <div className='line2'></div>
+                        <div className='line3'></div>
+                    </div>
+                    <nav>
+                        <ul className='nav--list'>
+                            <li onClick={goToAbout}>Sobre mim</li>
+                            <li onClick={goToSkills}>Skills</li>
+                            <li onClick={goToProjects}>Projetos</li>
+                            <li onClick={goToServices}>Serviços</li>
+                            <li onClick={goToContacts}>Contato</li>
+                        </ul>
+                    </nav>
                 </div>
             </header>
 			<main>
