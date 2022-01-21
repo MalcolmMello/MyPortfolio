@@ -23,6 +23,7 @@ export const Main = () => {
             top: aboutSection.current?.offsetTop,
             behavior: 'smooth'
         })
+        setIsOpen(false)
     }
 
     const goToSkills = () => {
@@ -30,6 +31,7 @@ export const Main = () => {
             top: skillsSection.current?.offsetTop,
             behavior: 'smooth'
         })
+        setIsOpen(false)
     }
 
     const goToProjects = () => {
@@ -37,6 +39,7 @@ export const Main = () => {
             top: projectsSection.current?.offsetTop,
             behavior: 'smooth'
         })
+        setIsOpen(false)
     }
 
     const goToServices = () => {
@@ -44,6 +47,7 @@ export const Main = () => {
             top: servicesSection.current?.offsetTop,
             behavior: 'smooth'
         })
+        setIsOpen(false)
     }
 
     const goToContacts = () => {
@@ -51,6 +55,7 @@ export const Main = () => {
             top: contactSection.current?.offsetTop,
             behavior: 'smooth'
         })
+        setIsOpen(false)
     }
 
     const handleOpenMenu = () => {
