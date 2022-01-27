@@ -43,18 +43,9 @@ export const Projects = () => {
                         <div className='fake--img'></div>
                         <h3>Crypto Currency</h3>
                         <p>
-                        <strong>Em desenvolvimento...</strong> <br />
+                        <strong>Em breve...</strong> <br />
                         Veja os dados e notícias das principais criptomoedas
                         do mercado.
-                        </p>
-                    </a>
-                    <a href='' className='project--item'>
-                        <div className='fake--img'></div>
-                        <h3>The New York Times</h3>
-                        <p>
-                        <strong>Em desenvolvimento...</strong> <br />
-                        Se informe em um site que utilza as principais notícias 
-                        do The New York Times.
                         </p>
                     </a>
                 </div>
