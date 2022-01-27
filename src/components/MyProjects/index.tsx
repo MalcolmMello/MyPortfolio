@@ -21,7 +21,7 @@ export const Projects = () => {
                         <h3>Landing Page</h3>
                         <p>Landing Page simples e responsiva.</p>
                     </a>
-                    <a href='' className='project--item'>
+                    <a href='https://shoesecommerce.netlify.app/' className='project--item'>
                         <img src="https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Challenges/fhzpdnabrek50hvhftnl.jpg" alt="e-commerce" />
                         <h3>E-Commerce</h3>
                         <p>Sneakers E-Commerce,
