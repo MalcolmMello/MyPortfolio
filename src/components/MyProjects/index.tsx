@@ -27,7 +27,7 @@ export const Projects = () => {
                         <p>Sneakers E-Commerce,
                         adicionar/remover/atualizar item do carrinho,
                         slideshow na tela principal e na tela inteira
-                        ao clicar na imagem principal, design responsivo</p>
+                        ao clicar na imagem principal, design responsivo.</p>
                     </a>
                     <a href='' className='project--item'>
                         <div className='fake--img'></div>
