@@ -53,7 +53,7 @@ export const Projects = () => {
                         <h3>The New York Times</h3>
                         <p>
                         <strong>Em desenvolvimento...</strong> <br />
-                        Se informe em jornal que utitilza as principais notícias 
+                        Se informe em um site que utilza as principais notícias 
                         do The New York Times.
                         </p>
                     </a>
