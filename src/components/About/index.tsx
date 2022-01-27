@@ -32,8 +32,8 @@ export const About = () => {
                             cerca de 7 meses, e posso dizer que domino ReactJS, Javascript, Typescript, HTML5 e CSS3.
                             Desenvolvi aplicações onde utilizei consumo de API, Design responsivo, HTML semântico, Rotas
                             (diversas páginas), e funcionalidades como Axios, Styled-Components, React-Router, ContextAPI, Hooks,
-                            LocalStorage, States e Eventos.
-                            Você pode ver mais sobre meus projetos na área Projetos abaixo, e nas minhas redes (
+                            LocalStorage, Versionamento de Código, States e Eventos.
+                            Você pode ver mais sobre meus projetos na seção Projetos abaixo, e nas minhas redes (
                                 LinkedIn, GitHub e YouTube
                             ).
                         </p>
