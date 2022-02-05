@@ -1,5 +1,6 @@
 import * as C from './styles'
 import countriespng from '../../assets/countriesMIN.png'
+import bannercryptos from '../../assets/bannercryptos.png'
 
 export const Projects = () => {
     return (
@@ -9,11 +10,25 @@ export const Projects = () => {
                 <div className='projects--area'>
                     <a href='https://appcountries-api.netlify.app/' target="_blank" className='project--item'>
                         <img src={countriespng} alt="" />
-                        <h3>CountriesAPI</h3>
-                        <p>Site para visualização de informações 
-                            de países, possuí filtros por região e nome, 
-                            segunda tela para ver mais informações e Theme Switcher
-                            (modo escuro ou claro).
+                        <h3>World in Data</h3>
+                        <p>
+                            Veja as principais informações de qualquer
+                            país do mundo.
+                        </p>
+                    </a>
+                    <a href='https://cryptoapp-reactjs.netlify.app/' target="_blank" className='project--item'>
+                        <img src={bannercryptos} alt="" />
+                        <h3>CryptoApp</h3>
+                        <p>
+                            Veja as estatísticas e notícias das principais criptomoedas
+                            do mercado.
+                        </p>
+                    </a>
+                    <a href='https://shoesecommerce.netlify.app/' target="_blank" className='project--item'>
+                        <img src="https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Challenges/fhzpdnabrek50hvhftnl.jpg" alt="e-commerce" />
+                        <h3>E-Commerce</h3>
+                        <p>Sneakers E-Commerce, veja as fotos,
+                            e adicione ao carrinho!
                         </p>
                     </a>
                     <a href='https://blog-landingpage.netlify.app/' target="_blank" className='project--item'>
@@ -21,31 +36,14 @@ export const Projects = () => {
                         <h3>Landing Page</h3>
                         <p>Landing Page simples e responsiva.</p>
                     </a>
-                    <a href='https://shoesecommerce.netlify.app/' className='project--item'>
-                        <img src="https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Challenges/fhzpdnabrek50hvhftnl.jpg" alt="e-commerce" />
-                        <h3>E-Commerce</h3>
-                        <p>Sneakers E-Commerce,
-                        adicionar/remover/atualizar item do carrinho,
-                        slideshow na tela principal e na tela inteira
-                        ao clicar na imagem principal, design responsivo.</p>
-                    </a>
                     <a href='' className='project--item'>
                         <div className='fake--img'></div>
-                        <h3>Travel Advisor</h3>
+                        <h3>The New York Times</h3>
                         <p>
                         <strong>Em desenvolvimento...</strong> <br />
-                        Aplicação para localizar hoteis,
-                        restaurantes e pontos turísticos, mostrando
-                        sua localização no mapa, em qualquer lugar do mundo. 
-                        </p>
-                    </a>
-                    <a href='' className='project--item'>
-                        <div className='fake--img'></div>
-                        <h3>Crypto Currency</h3>
-                        <p>
-                        <strong>Em breve...</strong> <br />
-                        Veja os dados e notícias das principais criptomoedas
-                        do mercado.
+                        Se informe através de uma das melhores fontes
+                        de informação do mundo,
+                        se não a melhor!
                         </p>
                     </a>
                 </div>
