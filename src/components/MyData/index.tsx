@@ -1,7 +1,6 @@
 import * as C from './styles'
 import meuportifolioimg from '../../assets/meuportifolioimg.png'
-import pdf from '../../files/MyResume.pdf'
-import { useRef } from 'react'
+import pdf from '../../files/MalcolmLima.pdf'
 
 export const MyData = () => {
     return (
@@ -17,7 +16,7 @@ export const MyData = () => {
                     Meu currículo:
                     </p>
                     <div className='button--area'>
-                        <a href={pdf} target="_blank" download>BAIXAR CURRÍCULO</a>
+                        <a href={pdf} target="_blank" rel="noreferrer" download>BAIXAR CURRÍCULO</a>
                     </div>
                 </div>
                 <div className='img--area'>

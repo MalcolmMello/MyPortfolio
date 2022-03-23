@@ -9,20 +9,20 @@ export const Contact = () => {
                 </p>
                 <div className='contact--area'>
                     <div className='contact--item'>
-                        <img src="https://img.icons8.com/material-outlined/24/5CC4C4/whatsapp--v1.png"/>
+                        <img src="https://img.icons8.com/material-outlined/24/5CC4C4/whatsapp--v1.png" alt='Imagem da Rede Social Whatsapp'/>
                         <p>{`(11) 97535-4237`}</p>
                     </div>
                     <div className='contact--item'>
-                        <img src="https://img.icons8.com/ios-filled/24/5CC4C4/email-open.png"/>
-                        <a href='mailto:malcolmmellolima@gmail.com' target="_blank">malcolmmellolima@gmail.com</a>
+                        <img src="https://img.icons8.com/ios-filled/24/5CC4C4/email-open.png" alt='Imagem da Rede Social Gmail'/>
+                        <a href='mailto:malcolmmellolima@gmail.com' target="_blank" rel="noreferrer">malcolmmellolima@gmail.com</a>
                     </div>
                     <div className='contact--item'>
-                        <img src="https://img.icons8.com/material-outlined/24/5CC4C4/github.png"/>
-                        <a href='https://github.com/MalcolmMello' target="_blank">@MalcolmMello</a>
+                        <img src="https://img.icons8.com/material-outlined/24/5CC4C4/github.png" alt='Imagem da Rede Social GitHub'/>
+                        <a href='https://github.com/MalcolmMello' target="_blank" rel="noreferrer">@MalcolmMello</a>
                     </div>
                     <div className='contact--item'>
-                        <img src="https://img.icons8.com/ios-glyphs/24/5CC4C4/linkedin.png"/>
-                        <a href='https://www.linkedin.com/in/malcolm-de-mello-a8208a224/' target="_blank">@MalcolmMello</a>
+                        <img src="https://img.icons8.com/ios-glyphs/24/5CC4C4/linkedin.png" alt='Imagem da Rede Social Linkedin'/>
+                        <a href='https://www.linkedin.com/in/malcolm-mello-a8208a224/' target="_blank" rel="noreferrer">@MalcolmMello</a>
                     </div>
                 </div>
             </div>
